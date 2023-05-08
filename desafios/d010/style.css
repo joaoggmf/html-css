@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+body{
+    background-color: #84E1AD;
+}
+#corpo{
+    background-color: white;
+}
+header{
+    background-image: linear-gradient(to top, #1A5C38,#25814E,#3CD983);
+    margin: -10px;
+    padding: 5px;
+    font-family:'Bruno Ace SC', cursive;
+    color: white;
+}
+header > p {
+    text-align: center;
+    font-size: 14px;
+}
+h1{
+    text-align: center;
+    font-size: x-large;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+nav > a:hover {
+    background-color: #3CD983;
+    text-decoration: underline;
+}
+main > h1{
+    font-family: 'Bruno Ace SC', cursive;
+    color: #266543;
+}
+h2{
+    font-family: 'Bruno Ace SC', cursive;
+    text-align: center;
+    color: #266543;
+    margin: 15px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(183, 243, 213),rgb(246, 247, 246));
+}
+.colorirdeverde{
+    color: rgb(40, 170, 40);
+    font-weight: bolder;
+}

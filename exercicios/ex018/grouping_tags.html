@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    body{
+      margin: 0px;
+      background-color: blanchedalmond;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    header{
+      width: 350px;
+      text-align: center;
+      background-color: aliceblue;
+      border: 5px solid black;
+      padding:0px 10px 5px 10px;
+      margin: auto;
+    }
+    main{
+      background-color: aliceblue;
+      padding: 0px 20px;
+
+    }
+    article > h2 {
+      text-align: center;
+      color: blue;
+      background-color: aquamarine;
+      border:2px dotted black;
+      width: 350px;
+      margin: auto;
+    }
+    footer{
+      padding: 3px;
+      font-weight: 800;
+      text-align: center;
+      background-color: chocolate;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cabeçalho</h1>
+    <nav>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+      <a href="#">Link</a>
+    </nav>
+  </header>
+  <main>
+    <section id="assuntos">
+      <article>
+        <h2>Assuntos da semana</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio porro laborum tempore sunt voluptate sequi accusantium dolorem officiis placeat earum numquam, beatae quasi error eum eveniet tenetur cupiditate repellat unde.</p>
+        <aside>
+          <p>Artigo escrito por fulano de tal</p>
+        </aside>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido por João Gabriel</p>
+  </footer>
+</body>
+</html>
